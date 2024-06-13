@@ -217,13 +217,16 @@ def checkAnswers(answers):
   for i in range(len(answers)):
 
     if (rightans[i] == answers[i]):
-      answerText = answerText + "\nPareizi\n"+str((i)+1)+". jautājums: \nJūsu atbilde: " + str(answers[i]) + "\nPareizā atbilde: " + str(rightans[i])
+      #answerText = answerText + "\nPareizi\n✦"+str((i)+1)+". jautājums: \nJūsu atbilde: " + str(answers[i]) + "\nPareizā atbilde: " + str(rightans[i])
       points = points + 1
     else:
-      answerText = answerText + "\nNepareizi\n"+str((i)+1)+" jautājums: \nJūsu atbilde: " + str(answers[i]) + "\nPareizā atbilde: " + str(rightans[i])
+      answerText = answerText + "\nNepareizi\n✦"+str((i)+1)+" jautājums: \nJūsu atbilde: " + str(answers[i]) + "\nPareizā atbilde: " + str(rightans[i])
 
-  return answerText, 
+  return answerText, points
 
-def punkti():
-  
+def iegutie():
+  print("░░░░░░░░░░░░░▀▀▀░░░░░░░░░░░░░  ░░░░░░░░░░░░░░░░░░░░░░░░░░ ░░░")
+  print("░▀█▀░█▀▀░█▀▀░█░█░▀█▀░▀█▀░█▀▀░  ░█▀█░█░█░█▀█░█░█░▀█▀░▀█▀░░ ░░░")
+  print("░░█░░█▀▀░█░█░█░█░░█░░░█░░█▀▀░  ░█▀▀░█░█░█░█░█▀▄░░█░░░█░░░ ░▀░")
+  print("░▀▀▀░▀▀▀░▀▀▀░▀▀▀░░▀░░▀▀▀░▀▀▀░  ░▀░░░▀▀▀░▀░▀░▀░▀░░▀░░▀▀▀░░ ░▀░")
 
