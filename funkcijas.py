@@ -46,7 +46,6 @@ def jaut1():
       return answer
     else:
       print("Nepareizi ievadīts burts!")
-      os.system('clear')
 
 def jaut2():
   print("░░░░░░░ ░░░░░░░░░░░░░░░░░▀▀▀░░░░░░░░░░░░░░░░")
@@ -64,7 +63,6 @@ def jaut2():
       return answer
     else:
       print("Nepareizi ievadīts burts!")
-      os.system('clear')
 
 def jaut3():
   print("░░░░░░░ ░░░░░░░░░░░░░░░░░▀▀▀░░░░░░░░░░░░░░░░")
@@ -82,7 +80,6 @@ def jaut3():
       return answer
     else:
       print("Nepareizi ievadīts burts!")
-      os.system('clear')
 
 def jaut4():
   print("░░░░░░░ ░░░░░░░░░░░░░░░░░▀▀▀░░░░░░░░░░░░░░░░")
@@ -100,7 +97,6 @@ def jaut4():
       return answer
     else:
       print("Nepareizi ievadīts burts!")
-      os.system('clear')
 
 def jaut5():
   print("░░░░░░░ ░░░░░░░░░░░░░░░░░▀▀▀░░░░░░░░░░░░░░░░")
@@ -118,7 +114,6 @@ def jaut5():
       return answer
     else:
       print("Nepareizi ievadīts burts!")
-      os.system('clear')
 
 def jaut6():
   print("░░░░░░░ ░░░░░░░░░░░░░░░░░▀▀▀░░░░░░░░░░░░░░░░")
@@ -136,7 +131,6 @@ def jaut6():
       return answer
     else:
       print("Nepareizi ievadīts burts!")
-      os.system('clear')
 
 def jaut7():
   print("░░░░░░░ ░░░░░░░░░░░░░░░░░▀▀▀░░░░░░░░░░░░░░░░")
@@ -154,7 +148,6 @@ def jaut7():
       return answer
     else:
       print("Nepareizi ievadīts burts!")
-      os.system('clear')
 
 def jaut8():
   print("░░░░░░░ ░░░░░░░░░░░░░░░░░▀▀▀░░░░░░░░░░░░░░░░")
@@ -172,7 +165,6 @@ def jaut8():
       return answer
     else:
       print("Nepareizi ievadīts burts!")
-      os.system('clear')
 
 def jaut9():
   print("░░░░░░░ ░░░░░░░░░░░░░░░░░▀▀▀░░░░░░░░░░░░░░░░")
@@ -190,7 +182,6 @@ def jaut9():
       return answer
     else:
       print("Nepareizi ievadīts burts!")
-      os.system('clear')
 
 def jaut10():
   print("░░░░░░░░░░░ ░░░░░░░░░░░░░░░░░▀▀▀░░░░░░░░░░░░░░░░")
@@ -214,13 +205,12 @@ def checkAnswers(answers):
   answerText = ""
   points = 0
   rightans = ['D', 'A', 'A', 'B', 'C', 'A', 'D', 'B', 'A', 'B']
+  
   for i in range(len(answers)):
-
     if (rightans[i] == answers[i]):
-      #answerText = answerText + "\nPareizi\n✦"+str((i)+1)+". jautājums: \nJūsu atbilde: " + str(answers[i]) + "\nPareizā atbilde: " + str(rightans[i])
       points = points + 1
     else:
-      answerText = answerText + "\nNepareizi\n✦"+str((i)+1)+" jautājums: \nJūsu atbilde: " + str(answers[i]) + "\nPareizā atbilde: " + str(rightans[i])
+      answerText = answerText + "\n✦ "+str((i)+1)+". jautājums\nJūsu atbilde: "+str(answers[i])+"\nPareizā atbilde: "+str(rightans[i])+"\n"
 
   return answerText, points
 
@@ -230,3 +220,109 @@ def iegutie():
   print("░░█░░█▀▀░█░█░█░█░░█░░░█░░█▀▀░  ░█▀▀░█░█░█░█░█▀▄░░█░░░█░░░ ░▀░")
   print("░▀▀▀░▀▀▀░▀▀▀░▀▀▀░░▀░░▀▀▀░▀▀▀░  ░▀░░░▀▀▀░▀░▀░▀░▀░░▀░░▀▀▀░░ ░▀░")
 
+def nepareizais():
+  print("░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ ░░░░░░░░░░░░░░░░░░░░░░░░░▀▀▀░░░░░░░░░░░░░░ ░░░")
+  print("░█▀█░█▀▀░█▀█░█▀█░█▀▄░█▀▀░▀█▀░▀▀█░▀█▀░ ░█▀█░▀█▀░█▀▄░▀█▀░█░░░█▀▄░█▀▀░▀█▀░▀█▀░█▀▀░░ ░░░")
+  print("░█░█░█▀▀░█▀▀░█▀█░█▀▄░█▀▀░░█░░▄▀░░░█░░ ░█▀█░░█░░█▀▄░░█░░█░░░█░█░█▀▀░░█░░░█░░█▀▀░░ ░▀░")
+  print("░▀░▀░▀▀▀░▀░░░▀░▀░▀░▀░▀▀▀░▀▀▀░▀▀▀░▀▀▀░ ░▀░▀░░▀░░▀▀░░▀▀▀░▀▀▀░▀▀░░▀▀▀░░▀░░▀▀▀░▀▀▀░░ ░▀░")
+
+def skaitli(points):
+  if(points == 1):
+    print()
+    print("\t\t\t\t\t\t\t ████")
+    print("\t\t\t\t\t\t\t░░███")
+    print("\t\t\t\t\t\t\t ░███")
+    print("\t\t\t\t\t\t\t ░███")
+    print("\t\t\t\t\t\t\t ░███")
+    print("\t\t\t\t\t\t\t ░███")
+    print("\t\t\t\t\t\t\t █████")
+    print("\t\t\t\t\t\t\t ░░░░░")
+  elif(points==2):
+    print()
+    print("\t\t\t\t\t\t\t  ████████")
+    print("\t\t\t\t\t\t\t ███░░░░███")
+    print("\t\t\t\t\t\t\t ░░░    ░███")
+    print("\t\t\t\t\t\t\t   ███████")
+    print("\t\t\t\t\t\t\t ███░░░░")
+    print("\t\t\t\t\t\t\t ███      █")
+    print("\t\t\t\t\t\t\t░██████████")
+    print("\t\t\t\t\t\t\t ░░░░░░░░░░")
+  elif(points==3):
+    print()
+    print("\t\t\t\t\t\t\t  ████████")
+    print("\t\t\t\t\t\t\t ███░░░░███")
+    print("\t\t\t\t\t\t\t ░░░    ░███")
+    print("\t\t\t\t\t\t\t     ██████░ ")
+    print("\t\t\t\t\t\t\t  ░░░░░░███")
+    print("\t\t\t\t\t\t\t ███   ░███")
+    print("\t\t\t\t\t\t\t░░████████")
+    print("\t\t\t\t\t\t\t ░░░░░░░░  ")
+  elif(points==4):
+    print()
+    print("\t\t\t\t\t\t\t  █████ █████ ")
+    print("\t\t\t\t\t\t\t ░░███ ░░███ ")
+    print("\t\t\t\t\t\t\t  ░███  ░███ █")
+    print("\t\t\t\t\t\t\t  ░███████████")
+    print("\t\t\t\t\t\t\t  ░░░░░░░███░█")
+    print("\t\t\t\t\t\t\t        ░███░ ")
+    print("\t\t\t\t\t\t\t        █████ ")
+    print("\t\t\t\t\t\t\t        ░░░░░")
+  elif(points==5):
+    print()
+    print("\t\t\t\t\t\t\t ██████████")
+    print("\t\t\t\t\t\t\t░███░░░░░░█")
+    print("\t\t\t\t\t\t\t░███     ░ ")
+    print("\t\t\t\t\t\t\t░█████████ ")
+    print("\t\t\t\t\t\t\t░░░░░░░░███")
+    print("\t\t\t\t\t\t\t ███   ░███")
+    print("\t\t\t\t\t\t\t░░████████")
+    print("\t\t\t\t\t\t\t ░░░░░░░░  ")
+  elif(points==6):
+    print()
+    print("\t\t\t\t\t\t\t  ████████ ")
+    print("\t\t\t\t\t\t\t ███░░░░")
+    print("\t\t\t\t\t\t\t░█████████ ")
+    print("\t\t\t\t\t\t\t░███░░░░███")
+    print("\t\t\t\t\t\t\t░███   ░███")
+    print("\t\t\t\t\t\t\t░░████████ ")
+    print("\t\t\t\t\t\t\t ░░░░░░░░  ")
+  elif(points==7):
+    print()
+    print("\t\t\t\t\t\t\t ██████████")
+    print("\t\t\t\t\t\t\t░███░░░░███")
+    print("\t\t\t\t\t\t\t░░░    ███ ")
+    print("\t\t\t\t\t\t\t      ███  ")
+    print("\t\t\t\t\t\t\t     ███   ")
+    print("\t\t\t\t\t\t\t    ███    ")
+    print("\t\t\t\t\t\t\t   ███     ")
+    print("\t\t\t\t\t\t\t  ░░░      ")
+  elif(points==8):
+    print()
+    print("\t\t\t\t\t\t\t  ████████ ")
+    print("\t\t\t\t\t\t\t ███░░░░███")
+    print("\t\t\t\t\t\t\t░███   ░███")
+    print("\t\t\t\t\t\t\t░░████████ ")
+    print("\t\t\t\t\t\t\t ███░░░░███")
+    print("\t\t\t\t\t\t\t░███   ░███")
+    print("\t\t\t\t\t\t\t░░████████ ")
+    print("\t\t\t\t\t\t\t ░░░░░░░░  ")
+  elif(points==9):
+    print()
+    print("\t\t\t\t\t\t\t  ████████ ")
+    print("\t\t\t\t\t\t\t ███░░░░███")
+    print("\t\t\t\t\t\t\t░███   ░███")
+    print("\t\t\t\t\t\t\t░░█████████")
+    print("\t\t\t\t\t\t\t ░░░░░░░███")
+    print("\t\t\t\t\t\t\t ███   ░███")
+    print("\t\t\t\t\t\t\t ░░███████ ")
+    print("\t\t\t\t\t\t\t ░░░░░░░░  ")
+  else:
+    print()
+    print("\t\t\t\t\t\t\t ████     █████   ")
+    print("\t\t\t\t\t\t\t░░███   ███░░░███ ")
+    print("\t\t\t\t\t\t\t ░███  ███   ░░███")
+    print("\t\t\t\t\t\t\t ░███ ░███    ░███")
+    print("\t\t\t\t\t\t\t ░███ ░███    ░███")
+    print("\t\t\t\t\t\t\t ░███ ░░███   ███ ")
+    print("\t\t\t\t\t\t\t █████ ░░░█████░  ")
+    print("\t\t\t\t\t\t\t░░░░░    ░░░░░░   ")

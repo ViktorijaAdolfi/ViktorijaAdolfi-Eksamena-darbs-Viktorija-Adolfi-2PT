@@ -1,4 +1,4 @@
-from funkcijas import hello, noteikumi, clear3S, getName, jaut1, jaut2, jaut3, jaut4, jaut5, jaut6, jaut7, jaut8, jaut9, jaut10, checkAnswers, iegutie
+from funkcijas import hello, noteikumi, clear3S, getName, jaut1, jaut2, jaut3, jaut4, jaut5, jaut6, jaut7, jaut8, jaut9, jaut10, checkAnswers, iegutie, nepareizais, skaitli
 
 
 punkti = 0
@@ -24,8 +24,7 @@ answers.append(jaut10())
 
 tekstsss, points = checkAnswers(answers)
 iegutie()
-print("\t\t\t\t\t\t\t",points)
+skaitli(points)
 clear3S()
-# checkAnswers(answers)
-
+nepareizais()
 print(tekstsss)
