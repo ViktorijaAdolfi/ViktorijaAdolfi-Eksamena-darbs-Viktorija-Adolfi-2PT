@@ -3,8 +3,7 @@ import os
 
 def hello():
   print()
-  print("      ░█▀▀░█▀█░█▀▄░░░█▀▀░▀█▀░█░█░█░░░█▀▀░░░░  ░█▀█░█░█░▀█▀░█░█░█▀█░█▀█  "
-  )
+  print("      ░█▀▀░█▀█░█▀▄░░░█▀▀░▀█▀░█░█░█░░░█▀▀░░░░  ░█▀█░█░█░▀█▀░█░█░█▀█░█▀█  ")
   print("      ░█▀▀░█░█░█▀▄░░░█░░░░█░░█▀▄░█░░░▀▀█░░░░  ░█▀▀░░█░░░█░░█▀█░█░█░█░█  ")
   print("      ░▀░░░▀▀▀░▀░▀░░░▀▀▀░▀▀▀░▀░▀░▀▀▀░▀▀▀░▄▀░  ░▀░░░░▀░░░▀░░▀░▀░▀▀▀░▀░▀  ")
   print()
@@ -18,8 +17,8 @@ def noteikumi():
   print("  ✦ Tiek uzdoti 10 jautājumi par tēmu: 'Cikls ar priekšnosacījumu programmēšanas valodā Python' \n  ✦ Doti 4 atbilžu varianti, taču tikai viens no tiem ir pareizs \n  ✦ Uz katru jautājumu jāatbild vienu reizi \n  ✦ Uz jautājumiem atbildat ar vajadzīgo burtu \n  ✦ Atbilžu varianti tiks parādīti pēc testa izpildes")
   print()
 
-def clear5S():
-  time.sleep(5)
+def clear3S():
+  time.sleep(3)
   os.system('clear')
 
 def getName():
@@ -43,9 +42,11 @@ def jaut1():
   while True:
     answer = input("Ievadiet savu atbildi: ").upper()
     if answer in ('A', 'B', 'C', 'D'):
+      os.system('clear')
       return answer
     else:
       print("Nepareizi ievadīts burts!")
+      os.system('clear')
 
 def jaut2():
   print("░░░░░░░ ░░░░░░░░░░░░░░░░░▀▀▀░░░░░░░░░░░░░░░░")
@@ -59,9 +60,11 @@ def jaut2():
   while True:
     answer = input("Ievadiet savu atbildi: ").upper()
     if answer in ('A', 'B', 'C', 'D'):
+      os.system('clear')
       return answer
     else:
       print("Nepareizi ievadīts burts!")
+      os.system('clear')
 
 def jaut3():
   print("░░░░░░░ ░░░░░░░░░░░░░░░░░▀▀▀░░░░░░░░░░░░░░░░")
@@ -75,9 +78,11 @@ def jaut3():
   while True:
     answer = input("Ievadiet savu atbildi: ").upper()
     if answer in ('A', 'B', 'C', 'D'):
+      os.system('clear')
       return answer
     else:
       print("Nepareizi ievadīts burts!")
+      os.system('clear')
 
 def jaut4():
   print("░░░░░░░ ░░░░░░░░░░░░░░░░░▀▀▀░░░░░░░░░░░░░░░░")
@@ -91,9 +96,11 @@ def jaut4():
   while True:
     answer = input("Ievadiet savu atbildi: ").upper()
     if answer in ('A', 'B', 'C', 'D'):
+      os.system('clear')
       return answer
     else:
       print("Nepareizi ievadīts burts!")
+      os.system('clear')
 
 def jaut5():
   print("░░░░░░░ ░░░░░░░░░░░░░░░░░▀▀▀░░░░░░░░░░░░░░░░")
@@ -107,9 +114,11 @@ def jaut5():
   while True:
     answer = input("Ievadiet savu atbildi: ").upper()
     if answer in ('A', 'B', 'C', 'D'):
+      os.system('clear')
       return answer
     else:
       print("Nepareizi ievadīts burts!")
+      os.system('clear')
 
 def jaut6():
   print("░░░░░░░ ░░░░░░░░░░░░░░░░░▀▀▀░░░░░░░░░░░░░░░░")
@@ -123,9 +132,11 @@ def jaut6():
   while True:
     answer = input("Ievadiet savu atbildi: ").upper()
     if answer in ('A', 'B', 'C', 'D'):
+      os.system('clear')
       return answer
     else:
       print("Nepareizi ievadīts burts!")
+      os.system('clear')
 
 def jaut7():
   print("░░░░░░░ ░░░░░░░░░░░░░░░░░▀▀▀░░░░░░░░░░░░░░░░")
@@ -139,9 +150,11 @@ def jaut7():
   while True:
     answer = input("Ievadiet savu atbildi: ").upper()
     if answer in ('A', 'B', 'C', 'D'):
+      os.system('clear')
       return answer
     else:
       print("Nepareizi ievadīts burts!")
+      os.system('clear')
 
 def jaut8():
   print("░░░░░░░ ░░░░░░░░░░░░░░░░░▀▀▀░░░░░░░░░░░░░░░░")
@@ -155,9 +168,11 @@ def jaut8():
   while True:
     answer = input("Ievadiet savu atbildi: ").upper()
     if answer in ('A', 'B', 'C', 'D'):
+      os.system('clear')
       return answer
     else:
       print("Nepareizi ievadīts burts!")
+      os.system('clear')
 
 def jaut9():
   print("░░░░░░░ ░░░░░░░░░░░░░░░░░▀▀▀░░░░░░░░░░░░░░░░")
@@ -171,9 +186,11 @@ def jaut9():
   while True:
     answer = input("Ievadiet savu atbildi: ").upper()
     if answer in ('A', 'B', 'C', 'D'):
+      os.system('clear')
       return answer
     else:
       print("Nepareizi ievadīts burts!")
+      os.system('clear')
 
 def jaut10():
   print("░░░░░░░░░░░ ░░░░░░░░░░░░░░░░░▀▀▀░░░░░░░░░░░░░░░░")
@@ -187,9 +204,11 @@ def jaut10():
   while True:
     answer = input("Ievadiet savu atbildi: ").upper()
     if answer in ('A', 'B', 'C', 'D'):
+      os.system('clear')
       return answer
     else:
       print("Nepareizi ievadīts burts!")
+      os.system('clear')
 
 def checkAnswers(answers):
   answerText = ""
@@ -203,4 +222,8 @@ def checkAnswers(answers):
     else:
       answerText = answerText + "\nNepareizi\n"+str((i)+1)+" jautājums: \nJūsu atbilde: " + str(answers[i]) + "\nPareizā atbilde: " + str(rightans[i])
 
-  return answerText, points
+  return answerText, 
+
+def punkti():
+  
+
