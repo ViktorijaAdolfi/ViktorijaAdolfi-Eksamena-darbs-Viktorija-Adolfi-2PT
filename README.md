@@ -8,17 +8,21 @@
 * Četras atbildes, bet viena pareiza atbilde.
 
 > Noteikumi:
+> 
 > ![image](https://github.com/ViktorijaAdolfi/ViktorijaAdolfi-Eksamena-darbs-Viktorija-Adolfi-2PT/assets/165994061/dba65a42-2ecf-4867-904a-f26b23345b63)
 
-> Ir iespēja ievadīt A, B, C vai D kā atbildi.
+> Ir iespēja ievadīt A, B, C vai D kā atbildi
+> 
 > ![image](https://github.com/ViktorijaAdolfi/ViktorijaAdolfi-Eksamena-darbs-Viktorija-Adolfi-2PT/assets/165994061/6f49eda6-1e42-44ae-8d29-6afb0ee597ff)
 
 > ![image](https://github.com/ViktorijaAdolfi/ViktorijaAdolfi-Eksamena-darbs-Viktorija-Adolfi-2PT/assets/165994061/1f35a3b7-eb9d-4e39-89a1-489a8bbc7b9a)
 
 > Pēc rezultātu uzzināšanas, parāda Jūsu kļūdas.
+> 
 > ![image](https://github.com/ViktorijaAdolfi/ViktorijaAdolfi-Eksamena-darbs-Viktorija-Adolfi-2PT/assets/165994061/8d8b79ac-b1b1-4e2f-871a-14fac8b583c8)
 
 > Nobeigums
+> 
 > ![image](https://github.com/ViktorijaAdolfi/ViktorijaAdolfi-Eksamena-darbs-Viktorija-Adolfi-2PT/assets/165994061/15d4b971-7781-4277-b7a3-d6da1a2283d5)
 
 ### Darāmo lietu saraksts: 
