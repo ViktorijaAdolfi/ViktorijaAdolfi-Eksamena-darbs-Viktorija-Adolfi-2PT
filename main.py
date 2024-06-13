@@ -28,3 +28,10 @@ skaitli(points)
 clear3S()
 nepareizais()
 print(tekstsss)
+
+while True:
+  YN = input("Lai turpinātu, rakstiet 'Y': ").upper()
+  if YN=='Y':
+    break
+  else:
+    print("Nepareizi ievadīts burts!")
