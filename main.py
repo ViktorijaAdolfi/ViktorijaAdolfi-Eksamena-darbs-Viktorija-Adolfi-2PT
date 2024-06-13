@@ -1,4 +1,4 @@
-from funkcijas import hello, noteikumi, clear3S, getName, jaut1, jaut2, jaut3, jaut4, jaut5, jaut6, jaut7, jaut8, jaut9, jaut10, checkAnswers, iegutie, nepareizais, skaitli
+from funkcijas import hello, noteikumi, clear3S, getName, jaut1, jaut2, jaut3, jaut4, jaut5, jaut6, jaut7, jaut8, jaut9, jaut10, checkAnswers, iegutie, nepareizais, skaitli, nobeigums, pareizi10
 
 
 punkti = 0
@@ -24,9 +24,13 @@ answers.append(jaut10())
 
 tekstsss, points = checkAnswers(answers)
 iegutie()
+
 skaitli(points)
 clear3S()
-nepareizais()
+if(points==10):
+  pareizi10()
+else:
+  nepareizais()
 print(tekstsss)
 
 while True:
@@ -35,3 +39,6 @@ while True:
     break
   else:
     print("Nepareizi ievadīts burts!")
+
+clear3S()
+nobeigums(username)
