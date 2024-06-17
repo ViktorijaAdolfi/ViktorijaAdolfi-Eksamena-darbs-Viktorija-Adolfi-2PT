@@ -5,7 +5,9 @@
 
 * Tests ar 10 jautājumiem,
 * Tests ir par FOR ciklu,
-* Četras atbildes, bet viena pareiza atbilde.
+* Četras atbildes, bet viena pareiza atbilde,
+* Ir pievienota powerpoint prezentācija ar mācību materiālu par šo tēmu,
+* Pievienota prezentācija, kur ir apkopojums par eksāmena darbu, kā arī izmantotie avoti.
 
 > Noteikumi:
 > 
