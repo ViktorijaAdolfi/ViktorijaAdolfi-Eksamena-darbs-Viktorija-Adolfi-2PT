@@ -28,9 +28,7 @@
 > ![image](https://github.com/ViktorijaAdolfi/ViktorijaAdolfi-Eksamena-darbs-Viktorija-Adolfi-2PT/assets/165994061/15d4b971-7781-4277-b7a3-d6da1a2283d5)
 
 > Saite uz kodu: https://replit.com/@ViktorijaAdolfi/Cikls-ar-skaititaju-eksamens#main.py
-> Uzpiežot uz pogu "Run" tiks dota iespēja veikt testu.
 > 
-> ![image](https://github.com/user-attachments/assets/b3fc941c-d96c-4b32-bfc8-77e29f390856)
 
 
 
